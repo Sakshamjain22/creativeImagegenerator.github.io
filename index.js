@@ -18,7 +18,7 @@ app.use('/api/v1/dalle',dalleRoutes)
 
 app.get('/', async (req, res) => {
     
-      res.send('Hello from DALL.E!');
+      res.send('Hello from Creative Image Generator!');
     
   });
 
